@@ -1,0 +1,10 @@
+.formulario{
+    background-color: var(--cinza-claro-fundos);
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 1.2rem;
+    border-radius: 10px;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    width: 75%;
+}

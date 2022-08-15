@@ -1,0 +1,14 @@
+.home{
+    background-color: var(--azul);
+    color: var(--branco);
+}
+
+
+.botoes--home{
+    text-align: center;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    
+}

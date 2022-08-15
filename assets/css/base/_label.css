@@ -1,0 +1,10 @@
+.label{
+    color: var(--cinza);
+    margin: 0.5rem;
+}
+
+.azul{
+    color: var(--azul);
+    font-weight: 600;
+    margin: 0.5rem 0;
+}

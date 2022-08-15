@@ -1,0 +1,16 @@
+@import url(./_reset.css);
+@import url(./_variaveis.css);
+@import url(./_input.css);
+@import url(./_label.css);
+@import url(./_animais.css);
+@import url(./_lista.css);
+@import url(./_form.css);
+
+body{
+    height: 100%;
+    background-color: var(--branco);
+    font-family: var(--fonte-familia);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

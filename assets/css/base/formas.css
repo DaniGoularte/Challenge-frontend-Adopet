@@ -1,0 +1,105 @@
+.forma1{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.forma2{
+    position: absolute;
+    z-index: -1;
+}
+
+.patas{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.invertido{
+    transform: scaleX(-1);
+    left: 0;
+    right: none;
+}
+
+.ilustracao{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -20px;
+    z-index: -1;
+}
+
+.pet{
+    margin-left: 1.5rem;
+    margin-right: 0.7rem;
+    width: 40%;
+}
+
+.foto-perfil{
+    display: block;
+    margin: auto;
+}
+
+/* Responsivo */
+
+@media (min-width: 0px) {
+    .forma1{
+        width: 100%;
+    }
+    .forma2{
+        top: 25%;
+        height: 415px;
+        right: -7%;
+    }
+    .invertido{
+        top: 80%;
+    }
+
+    .patas{
+        width: 100px;
+    }
+    
+}
+@media (min-width: 768px) {
+    .forma1{
+        width:70%
+    }
+    .forma2{
+        height: 664px;
+        top: 15%;
+        right: 0;
+    }
+    .invertido{
+        transform: scaleX(1);
+        left: unset;
+        right: 0;
+        top: 25%;
+    }
+    .patas{
+        width: 150px;
+    }
+
+    
+}
+
+@media (min-width: 1024px) {
+    .forma1{
+        width: 40%;
+    }
+    .forma2{
+        top: 15%;
+        right: 0px;
+    }
+    .invertido{
+        transform: scaleX(1);
+        left: unset;
+        right: 0;
+        top: 25%;
+    }
+    .patas{
+        width: 200px;
+    }
+    
+
+}

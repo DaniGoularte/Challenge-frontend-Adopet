@@ -1,0 +1,88 @@
+.texto{
+    color: var(--azul);
+    font-weight: var(--fonte-peso-comum);
+    margin: 1rem;
+    text-align: center;
+    width: 90%;
+}
+
+.inicial{
+    color: var(--branco);
+    width: 70%;
+}
+
+.texto--responsivo{
+    display: none;
+}
+.forgot{
+    color: var(--coral);
+    text-decoration: underline;
+    font-size: 0.8rem;
+    font-weight: 400;
+    display: block;
+    margin: 1rem auto;
+}
+
+.adocao{
+    width: 70%;
+    line-height: 1.3rem;
+}
+
+.nome{
+    color: var(--azul);
+    font-weight: 600;
+}
+
+.informacoes{
+    color: var(--cinza);
+    font-size: 0.88rem;
+    line-height: 1.2rem;
+    margin-bottom: 1.8rem;
+    margin-top: 0.8rem;
+}
+
+.endereco{
+    color: var(--cinza);
+    font-size: 0.75rem;
+    margin-bottom: 0.5rem;
+}
+
+.responsavel{
+    align-items: center;
+    color: var(--cinza);
+    display: flex;
+    font-size: 0.63rem;
+}
+
+.responsavel img{
+    margin-right: 0.5rem;
+}
+
+.responsavel:active, .responsavel:hover{
+    color: var(--verde);
+}
+
+.texto--mensagem{
+    width: 65%;
+}
+
+.titulo--perfil{
+    font-size: 1.32rem;
+    color: var(--cinza);
+    font-weight: 600;
+    text-align: center;
+}
+
+.texto--perfil{
+    margin-top: 5rem;
+    width: 70%;
+}
+
+@media screen and (min-width: 768px) {
+    .texto--responsivo{
+        display: inline-block;
+    }
+    .inicial{
+        width: 90%;
+    }
+}
