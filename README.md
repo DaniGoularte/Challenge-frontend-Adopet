@@ -22,10 +22,7 @@ Adoptet é uma aplicação desenvolvida no **Alura challenge front-end 4**, a id
 
 # Desenvolvimento
 
-O desenvolvimento foi divido em 4 semanas.
-
-
-## Layout mobile
+## Layout 
 <p float = 'left'>
 <img  src = 'https://github.com/DaniGoularte/DaniGoularte.github.io/blob/main/assets/img/telas/inicial-mobile.jpg' width='185px' height = '471px'>&nbsp;&nbsp;&nbsp;
 <img  src = 'https://github.com/DaniGoularte/DaniGoularte.github.io/blob/main/assets/img/telas/home-mobile.jpg' width='185px' height = '471px'>&nbsp;&nbsp;&nbsp;
