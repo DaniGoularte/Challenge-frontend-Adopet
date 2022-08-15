@@ -21,7 +21,7 @@ Adoptet é uma aplicação desenvolvida no **Alura challenge front-end 4**, a id
 
 # Desenvolvimento
 
-https://danigoularte.github.io/Challenge-frontend-Adopet/
+https://challenge-frontend-adopet.vercel.app/
  
  
 ## Layout 
@@ -44,7 +44,7 @@ https://danigoularte.github.io/Challenge-frontend-Adopet/
 
 ## Implantação em produção
 
-- Front end web: Github.io
+- Front end web: Vercel
 
 
 # Autora
